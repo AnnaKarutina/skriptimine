@@ -1,0 +1,9 @@
+#!/bin/bash
+# kuupäeva ja kella väljastamine
+
+date +"Today is %A, %B %d, %Y"
+echo
+date +"Time is %H:%M"
+echo
+echo -n "Calender "
+cal
